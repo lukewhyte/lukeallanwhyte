@@ -1,0 +1,65 @@
+{
+  "name": "lukeallanwhyte.com",
+  "version": "2.0.0",
+  "description": "My personal portfolio and resume",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "test:watch": "jest --watch --passWithNoTests",
+    "start": "webpack-dev-server --env dev --mode development",
+    "build": "webpack --env prod --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukewhyte/lukeallanwhyte.git"
+  },
+  "author": "Luke Whyte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukewhyte/lukeallanwhyte.git/issues"
+  },
+  "homepage": "https://github.com/lukewhyte/lukeallanwhyte.git#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.10.0",
+    "enzyme-to-json": "^3.3.5",
+    "file-loader": "^3.0.1",
+    "fs-extra": "^7.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.1.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-hot-loader": "^4.3.11"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/__tests__/setup/setupEnzyme.js"
+    ],
+    "testPathIgnorePatterns": [
+      "<rootDir>/__tests__/setup/"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|scss|svg)$": "identity-obj-proxy"
+    }
+  }
+}
