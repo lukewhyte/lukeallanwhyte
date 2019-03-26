@@ -1,0 +1,37 @@
+nav {
+    width: 100%;
+    margin:0;
+    height:79px;
+    font-size:1.6em;
+    color: #ddd;
+    background:transparent url('../../images/nav_bg.png') repeat-x 0 0;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 10;
+    text-align: center;
+  
+    div.links { 
+        display: inline-block;
+        padding:0;
+        width: 50%;
+        margin:0 auto;
+    
+        div.link {
+            display: inline-block;
+            vertical-align: middle;
+            letter-spacing: 2px;
+            text-align: right;
+            width: 50%;
+            padding-top: 20px;
+      
+            &:first-child { 
+                text-align: left;
+            }
+        
+            a:link { color: #ddd; }
+            a:visited { color: #ddd; }
+            a:hover { color: #aaa; }
+        }
+    }
+}
