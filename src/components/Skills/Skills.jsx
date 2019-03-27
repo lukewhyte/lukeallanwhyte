@@ -41,11 +41,11 @@ const getRays = (root, arc, color) => root.descendants().filter(d => d.depth).ma
 const getTransform = radius => `translate(${radius},${radius})`
 
 const Skills = ({ skills }) => {
-    const diameter = getDiameter();
-    const root = getPartition(skills, diameter / 2);
-    const arc = getArc(diameter / 2);
-    const color = getColor(skills);
-    const rays = getRays(root, arc, color);
+    const diameter  = getDiameter();
+    const root      = getPartition(skills, diameter / 2);
+    const arc       = getArc(diameter / 2);
+    const color     = getColor(skills);
+    const rays      = getRays(root, arc, color);
 
     return (
         <svg className="skills" width={diameter} height={diameter}>
