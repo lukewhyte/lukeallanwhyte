@@ -9,15 +9,15 @@
                     "children": [
                         {
                             "name": "MySQL",
-                            "value": 6
+                            "value": 60
                         },
                         {
                             "name": "PostGreSQL",
-                            "value": 6
+                            "value": 65
                         },
                         {
                             "name": "SQLite",
-                            "value": 6
+                            "value": 65
                         }
                     ]
                 },
@@ -26,11 +26,11 @@
                     "children": [
                         {
                             "name": "MongoDB",
-                            "value": 6
+                            "value": 60
                         },
                         {
                             "name": "Couchbase",
-                            "value": 6
+                            "value": 65
                         }
                     ]
                 }
@@ -44,11 +44,11 @@
                     "children": [
                         {
                             "name": "Apache",
-                            "value": 5
+                            "value": 55
                         },
                         {
                             "name": "Nginx",
-                            "value": 5
+                            "value": 55
                         }
                     ]
                 },
@@ -57,15 +57,15 @@
                     "children": [
                         {
                             "name": "Django",
-                            "value": 8
+                            "value": 80
                         },
                         {
                             "name": "Django Rest Framework",
-                            "value": 8
+                            "value": 85
                         },
                         {
                             "name": "Luigi",
-                            "value": 6
+                            "value": 65
                         }
                     ]
                 },
@@ -74,11 +74,11 @@
                     "children": [
                         {
                             "name": "Node",
-                            "value": 10
+                            "value": 95
                         },
                         {
                             "name": "Express",
-                            "value": 7
+                            "value": 70
                         }
                     ]
                 }
@@ -92,39 +92,39 @@
                     "children": [
                         {
                             "name": "React",
-                            "value": 10
+                            "value": 100
                         },
                         {
                             "name": "Vue",
-                            "value": 10
+                            "value": 95
                         },
                         {
                             "name": "Angular",
-                            "value": 10
+                            "value": 95
                         },
                         {
                             "name": "ES6",
-                            "value": 10
+                            "value": 100
                         },
                         {
                             "name": "TDD",
-                            "value": 10
+                            "value": 95
                         },
                         {
                             "name": "Webpack",
-                            "value": 9
+                            "value": 90
                         },
                         {
                             "name": "Lodash",
-                            "value": 10
+                            "value": 100
                         },
                         {
                             "name": "D3",
-                            "value": 10
+                            "value": 100
                         },
                         {
                             "name": "jQuery",
-                            "value": 10
+                            "value": 100
                         }
                     ]
                 },
@@ -133,7 +133,7 @@
                     "children": [
                         {
                             "name": "JSX",
-                            "value": 10
+                            "value": 100
                         }
                     ]
                 },
@@ -142,11 +142,11 @@
                     "children": [
                         {
                             "name": "SASS",
-                            "value": 10
+                            "value": 100
                         },
                         {
                             "name": "LESS",
-                            "value": 9
+                            "value": 95
                         }
                     ]
                 }
@@ -160,31 +160,31 @@
                     "children": [
                         {
                             "name": "Edward Tufte",
-                            "value": 10
+                            "value": 95
                         },
                         {
                             "name": "Alberto Cairo",
-                            "value": 10
+                            "value": 95
                         },
                         {
                             "name": "Dona Wong",
-                            "value": 10
+                            "value": 90
                         },
                         {
                             "name": "Mike Bostock",
-                            "value": 10
+                            "value": 100
                         },
                         {
                             "name": "David McCandless",
-                            "value": 8
+                            "value": 80
                         },
                         {
                             "name": "Nathan Yau",
-                            "value": 8
+                            "value": 80
                         },
                         {
                             "name": "Scott Murray",
-                            "value": 8
+                            "value": 80
                         }
                     ]
                 },
@@ -193,31 +193,207 @@
                     "children": [
                         {
                             "name": "Adobe Illustrator",
-                            "value": 8
+                            "value": 80
                         },
                         {
                             "name": "D3",
-                            "value": 10
+                            "value": 100
                         },
                         {
                             "name": "GeoJSON",
-                            "value": 10
+                            "value": 95
                         },
                         {
                             "name": "Highcharts",
-                            "value": 8
+                            "value": 85
                         },
                         {
                             "name": "C3",
-                            "value": 8
+                            "value": 85
                         },
                         {
                             "name": "Datawrapper",
-                            "value": 10
+                            "value": 100
                         },
                         {
                             "name": "HTML/CSS",
-                            "value": 10
+                            "value": 100
+                        },
+                        {
+                            "name": "Vega",
+                            "value": 75
+                        },
+                        {
+                            "name": "Brightcharts",
+                            "value": 80
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Data science",
+            "children": [
+                {
+                    "name": "Statistics/Analysis",
+                    "children": [
+                        {
+                            "name": "K-means clustering",
+                            "value": 70
+                        },
+                        {
+                            "name": "Natural language processing",
+                            "value": 60
+                        },
+                        {
+                            "name": "Naive Bayes",
+                            "value": 60
+                        },
+                        {
+                            "name": "Regression",
+                            "value": 50
+                        },
+                        {
+                            "name": "Network graphs",
+                            "value": 50
+                        }
+                    ]
+                },
+                {
+                    "name": "Data processing",
+                    "children": [
+                        {
+                            "name": "Hadoop",
+                            "value": 50
+                        },
+                        {
+                            "name": "Luigi",
+                            "value": 65
+                        },
+                        {
+                            "name": "Regular Expressions",
+                            "value": 85
+                        }
+                    ]
+                },
+                {
+                    "name": "Tools",
+                    "children": [
+                        {
+                            "name": "Python",
+                            "children" : [
+                                {
+                                    "name": "iPython",
+                                    "value": 60
+                                },
+                                {
+                                    "name": "NumPi",
+                                    "value": 50
+                                },
+                                {
+                                    "name": "Pandas",
+                                    "value": 50
+                                },
+                                {
+                                    "name": "Natural language toolkit",
+                                    "value": 50
+                                }
+                            ]
+                        },
+                        {
+                            "name": "JavaScript",
+                            "children" : [
+                                {
+                                    "name": "BrainJS",
+                                    "value": 80
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Spreadsheets",
+                            "children" : [
+                                {
+                                    "name": "Microsoft Excel",
+                                    "value": 95
+                                },
+                                {
+                                    "name": "Google Sheets",
+                                    "value": 90
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Web scraping",
+            "children": [
+                {
+                    "name": "Python",
+                    "children": [
+                        {
+                            "name": "Scrapy",
+                            "value": 85
+                        }
+                    ]
+                },
+                {
+                    "name": "JavaScript",
+                    "children": [
+                        {
+                            "name": "Cheerio",
+                            "value": 90
+                        },
+                        {
+                            "name": "PhantomJS",
+                            "value": 90
+                        },
+                        {
+                            "name": "Puppeteer",
+                            "value": 90
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cartography",
+            "children": [
+                {
+                    "name": "GIS",
+                    "value": 80
+                },
+                {
+                    "name": "Coordinate systems",
+                    "value": 75
+                },
+                {
+                    "name": "Tools",
+                    "children": [
+                        {
+                            "name": "Leaflet",
+                            "value": 100
+                        },
+                        {
+                            "name": "Mapbox",
+                            "value": 100
+                        },
+                        {
+                            "name": "Carto",
+                            "value": 100
+                        },
+                        {
+                            "name": "D3",
+                            "value": 100
+                        },
+                        {
+                            "name": "TurfJS",
+                            "value": 95
+                        },
+                        {
+                            "name": "ArcGIS",
+                            "value": 80
                         }
                     ]
                 }
