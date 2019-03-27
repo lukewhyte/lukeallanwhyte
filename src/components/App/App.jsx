@@ -20,8 +20,8 @@ class App extends Component {
     render() {
         return (
             <div id="app">
-                <Nav />
-                <Bio />
+                {/* <Nav />
+                <Bio /> */}
                 <Skills skills={skills} />
             </div>
         );

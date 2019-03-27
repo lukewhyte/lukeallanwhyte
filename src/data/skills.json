@@ -37,7 +37,7 @@
             ]
         },
         {
-            "name": "Backend",
+            "name": "Backend dev",
             "children": [
                 {
                     "name": "Web servers",
@@ -60,7 +60,7 @@
                             "value": 80
                         },
                         {
-                            "name": "Django Rest Framework",
+                            "name": "Django REST",
                             "value": 85
                         },
                         {
@@ -85,7 +85,7 @@
             ]
         },
         {
-            "name": "Frontend",
+            "name": "Frontend dev",
             "children": [
                 {
                     "name": "JavaScript",
@@ -242,7 +242,7 @@
                             "value": 70
                         },
                         {
-                            "name": "Natural language processing",
+                            "name": "NLP",
                             "value": 60
                         },
                         {
@@ -295,7 +295,7 @@
                                     "value": 50
                                 },
                                 {
-                                    "name": "Natural language toolkit",
+                                    "name": "NL toolkit",
                                     "value": 50
                                 }
                             ]

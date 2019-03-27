@@ -33,12 +33,34 @@ const getPath = (arc, color, d, i) => (
         key={`path${i}`}
         fill={setFill(d, color)}
         d={arc(d)}
-    />
+    >
+        <title>{d.data.name}</title>
+    </path>
 );
 
 const getRays = (root, arc, color) => root.descendants().filter(d => d.depth).map((d, i) => getPath(arc, color, d, i));
 
-const getTransform = radius => `translate(${radius},${radius})`
+const getGroupTransform = radius => `translate(${radius},${radius})`;
+
+const filterText = d => d.depth && (d.y0 + d.y1) / 2 * (d.x1 - d.x0) > 10;
+
+const getLabelTransform = d => {
+    const x = (d.x0 + d.x1) / 2 * 180 / Math.PI;
+    const y = (d.y0 + d.y1) / 2;
+    return `rotate(${x - 90}) translate(${y},0) rotate(${x < 180 ? 0 : 180})`;
+}
+
+const writeLabel = (d, i) => (
+    <text
+        transform={getLabelTransform(d)}
+        dy="0.35em"
+        key={`text${i}`}
+    >
+        {d.data.name}
+    </text>
+);
+
+const getText = root => root.descendants().filter(filterText).map(writeLabel);
 
 const Skills = ({ skills }) => {
     const diameter  = getDiameter();
@@ -46,11 +68,15 @@ const Skills = ({ skills }) => {
     const arc       = getArc(diameter / 2);
     const color     = getColor(skills);
     const rays      = getRays(root, arc, color);
+    const labels    = getText(root);
 
     return (
         <svg className="skills" width={diameter} height={diameter}>
-            <g fillOpacity={0.6} transform={getTransform(diameter / 2)}>
+            <g fillOpacity={0.6} transform={getGroupTransform(diameter / 2)}>
                 {rays}
+            </g>
+            <g pointerEvents="none" textAnchor="middle" transform={getGroupTransform(diameter / 2)}>
+                {labels}
             </g>
         </svg>
     );
