@@ -5,11 +5,23 @@ import * as d3      from 'd3';
 // styles
 import './Skills.scss';
 
+/*
+ * set component size
+ */
+
 const getDiameter = () => window.innerWidth > 960 ? 960 : window.innerWidth;
 
-const sortData = data => d3.hierarchy(data).sum(d => d.value).sort((a, b) => b.value - a.value);
+/*
+ * parse, sort data hierarchally 
+ */
 
-const getPartition = (data, radius) => d3.partition().size([2 * Math.PI, radius])(sortData(data));
+const sortData      = data => d3.hierarchy(data).sum(d => d.value).sort((a, b) => b.value - a.value);
+
+const getPartition  = (data, radius) => d3.partition().size([2 * Math.PI, radius])(sortData(data));
+
+/*
+ * d3 scale and render functions
+ */
 
 const getArc = radius => d3.arc()
     .startAngle(d => d.x0)
@@ -21,12 +33,33 @@ const getArc = radius => d3.arc()
 
 const getColor = data => d3.scaleOrdinal(d3.quantize(d3.interpolateRainbow, data.children.length + 1));
 
+/*
+ * filter data
+ */
+
+const filterText = d => d.depth && (d.y0 + d.y1) / 2 * (d.x1 - d.x0) > 10;
+
+/*
+ * element attribute functions
+ */
 const setFill = (d, color) => {
     while (d.depth > 1) {
         d = d.parent;
     }
     return color(d.data.name);
 };
+
+const getGroupTransform = radius => `translate(${radius},${radius})`;
+
+const getLabelTransform = d => {
+    const x = (d.x0 + d.x1) / 2 * 180 / Math.PI;
+    const y = (d.y0 + d.y1) / 2;
+    return `rotate(${x - 90}) translate(${y},0) rotate(${x < 180 ? 0 : 180})`;
+};
+
+/*
+ * render JSX elements
+ */
 
 const getPath = (arc, color, d, i) => (
     <path
@@ -38,18 +71,6 @@ const getPath = (arc, color, d, i) => (
     </path>
 );
 
-const getRays = (root, arc, color) => root.descendants().filter(d => d.depth).map((d, i) => getPath(arc, color, d, i));
-
-const getGroupTransform = radius => `translate(${radius},${radius})`;
-
-const filterText = d => d.depth && (d.y0 + d.y1) / 2 * (d.x1 - d.x0) > 10;
-
-const getLabelTransform = d => {
-    const x = (d.x0 + d.x1) / 2 * 180 / Math.PI;
-    const y = (d.y0 + d.y1) / 2;
-    return `rotate(${x - 90}) translate(${y},0) rotate(${x < 180 ? 0 : 180})`;
-}
-
 const writeLabel = (d, i) => (
     <text
         transform={getLabelTransform(d)}
@@ -60,7 +81,13 @@ const writeLabel = (d, i) => (
     </text>
 );
 
+const getRays = (root, arc, color) => root.descendants().filter(d => d.depth).map((d, i) => getPath(arc, color, d, i));
+
 const getText = root => root.descendants().filter(filterText).map(writeLabel);
+
+/*
+ * Initiate component
+ */
 
 const Skills = ({ skills }) => {
     const diameter  = getDiameter();
