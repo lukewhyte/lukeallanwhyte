@@ -1,0 +1,227 @@
+{
+    "name": "flare",
+    "children": [
+        {
+            "name": "Databases",
+            "children": [
+                {
+                    "name": "Relational",
+                    "children": [
+                        {
+                            "name": "MySQL",
+                            "value": 6
+                        },
+                        {
+                            "name": "PostGreSQL",
+                            "value": 6
+                        },
+                        {
+                            "name": "SQLite",
+                            "value": 6
+                        }
+                    ]
+                },
+                {
+                    "name": "NoSQL",
+                    "children": [
+                        {
+                            "name": "MongoDB",
+                            "value": 6
+                        },
+                        {
+                            "name": "Couchbase",
+                            "value": 6
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Backend",
+            "children": [
+                {
+                    "name": "Web servers",
+                    "children": [
+                        {
+                            "name": "Apache",
+                            "value": 5
+                        },
+                        {
+                            "name": "Nginx",
+                            "value": 5
+                        }
+                    ]
+                },
+                {
+                    "name": "Python",
+                    "children": [
+                        {
+                            "name": "Django",
+                            "value": 8
+                        },
+                        {
+                            "name": "Django Rest Framework",
+                            "value": 8
+                        },
+                        {
+                            "name": "Luigi",
+                            "value": 6
+                        }
+                    ]
+                },
+                {
+                    "name": "JavaScript",
+                    "children": [
+                        {
+                            "name": "Node",
+                            "value": 10
+                        },
+                        {
+                            "name": "Express",
+                            "value": 7
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Frontend",
+            "children": [
+                {
+                    "name": "JavaScript",
+                    "children": [
+                        {
+                            "name": "React",
+                            "value": 10
+                        },
+                        {
+                            "name": "Vue",
+                            "value": 10
+                        },
+                        {
+                            "name": "Angular",
+                            "value": 10
+                        },
+                        {
+                            "name": "ES6",
+                            "value": 10
+                        },
+                        {
+                            "name": "TDD",
+                            "value": 10
+                        },
+                        {
+                            "name": "Webpack",
+                            "value": 9
+                        },
+                        {
+                            "name": "Lodash",
+                            "value": 10
+                        },
+                        {
+                            "name": "D3",
+                            "value": 10
+                        },
+                        {
+                            "name": "jQuery",
+                            "value": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "HTML",
+                    "children": [
+                        {
+                            "name": "JSX",
+                            "value": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "CSS",
+                    "children": [
+                        {
+                            "name": "SASS",
+                            "value": 10
+                        },
+                        {
+                            "name": "LESS",
+                            "value": 9
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Data visualization",
+            "children": [
+                {
+                    "name": "Influences",
+                    "children": [
+                        {
+                            "name": "Edward Tufte",
+                            "value": 10
+                        },
+                        {
+                            "name": "Alberto Cairo",
+                            "value": 10
+                        },
+                        {
+                            "name": "Dona Wong",
+                            "value": 10
+                        },
+                        {
+                            "name": "Mike Bostock",
+                            "value": 10
+                        },
+                        {
+                            "name": "David McCandless",
+                            "value": 8
+                        },
+                        {
+                            "name": "Nathan Yau",
+                            "value": 8
+                        },
+                        {
+                            "name": "Scott Murray",
+                            "value": 8
+                        }
+                    ]
+                },
+                {
+                    "name": "Technologies",
+                    "children": [
+                        {
+                            "name": "Adobe Illustrator",
+                            "value": 8
+                        },
+                        {
+                            "name": "D3",
+                            "value": 10
+                        },
+                        {
+                            "name": "GeoJSON",
+                            "value": 10
+                        },
+                        {
+                            "name": "Highcharts",
+                            "value": 8
+                        },
+                        {
+                            "name": "C3",
+                            "value": 8
+                        },
+                        {
+                            "name": "Datawrapper",
+                            "value": 10
+                        },
+                        {
+                            "name": "HTML/CSS",
+                            "value": 10
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
