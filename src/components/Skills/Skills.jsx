@@ -6,18 +6,12 @@ import * as d3      from 'd3';
 import './Skills.scss';
 
 /*
- * set component size
- */
-
-const getDiameter = () => window.innerWidth > 960 ? 960 : window.innerWidth;
-
-/*
  * parse, sort data hierarchally 
  */
 
-const sortData      = data => d3.hierarchy(data).sum(d => d.value).sort((a, b) => b.value - a.value);
+const sortData = data => d3.hierarchy(data).sum(d => d.value).sort((a, b) => b.value - a.value);
 
-const getPartition  = (data, radius) => d3.partition().size([2 * Math.PI, radius])(sortData(data));
+const getPartition = (data, radius) => d3.partition().size([2 * Math.PI, radius])(sortData(data));
 
 /*
  * d3 scale and render functions
@@ -49,7 +43,9 @@ const setFill = (d, color) => {
     return color(d.data.name);
 };
 
-const getGroupTransform = radius => `translate(${radius},${radius})`;
+const getGroupTransform = radius => `translate(${radius},${radius * 0.8})`;
+
+const getTitleTransform = radius => `translate(${radius},${radius * 0.84})`;
 
 const getLabelTransform = d => {
     const x = (d.x0 + d.x1) / 2 * 180 / Math.PI;
@@ -89,8 +85,7 @@ const getText = root => root.descendants().filter(filterText).map(writeLabel);
  * Initiate component
  */
 
-const Skills = ({ skills }) => {
-    const diameter  = getDiameter();
+const Skills = ({ skills, diameter }) => {
     const root      = getPartition(skills, diameter / 2);
     const arc       = getArc(diameter / 2);
     const color     = getColor(skills);
@@ -98,19 +93,25 @@ const Skills = ({ skills }) => {
     const labels    = getText(root);
 
     return (
-        <svg className="skills" width={diameter} height={diameter}>
-            <g fillOpacity={0.6} transform={getGroupTransform(diameter / 2)}>
-                {rays}
-            </g>
-            <g pointerEvents="none" textAnchor="middle" transform={getGroupTransform(diameter / 2)}>
-                {labels}
-            </g>
-        </svg>
+        <div className="skills">
+            <svg width={diameter} height={diameter * 0.94}>
+                <g fillOpacity={0.6} transform={getGroupTransform(diameter / 2)}>
+                    {rays}
+                </g>
+                <g pointerEvents="none" textAnchor="middle" transform={getGroupTransform(diameter / 2)}>
+                    {labels}
+                </g>
+                <g pointerEvents="none" textAnchor="middle" transform={getTitleTransform(diameter / 2)}>
+                    <text className="title">Me</text>
+                </g>
+            </svg>
+        </div>
     );
 };
 
 Skills.propTypes = {
     skills: PropTypes.object.isRequired,
+    diameter: PropTypes.number.isRequired,
 };
 
 export default Skills

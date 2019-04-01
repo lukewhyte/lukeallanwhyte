@@ -1,8 +1,8 @@
 @import 'node_modules/express-news-styleguide/init-base';
 
 .intro {
-    width:100%;
-    margin: 90px 0 0;
+    width: 98%; 
+    margin: 90px auto 0;
     text-align:center;
 
     span { 
@@ -17,6 +17,7 @@
     .dejaVu { padding-bottom: 25px; }
 
     @include mediaquery(515px) {
-        margin: 90px 0 28px;
+        width: 480px;
+        margin: 90px auto 28px;
     }
 }

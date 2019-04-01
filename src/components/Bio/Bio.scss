@@ -1,7 +1,7 @@
 @import 'node_modules/express-news-styleguide/init-base';
 
 div.bio {
-    width: 98%; 
+    width: 100%; 
     margin: 0 auto;
 
     .anton {
@@ -28,8 +28,6 @@ div.bio {
     }
 
     @include mediaquery(515px) {
-        width: 480px;
-
         .anton { font-size: 11em; }
         .anotherHand { font-size: 6em; }
         .dejaVu { font-size:2.6em; }

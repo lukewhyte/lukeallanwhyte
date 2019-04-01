@@ -153,7 +153,7 @@
             ]
         },
         {
-            "name": "Data visualization",
+            "name": "Data viz",
             "children": [
                 {
                     "name": "Influences",
@@ -175,7 +175,7 @@
                             "value": 100
                         },
                         {
-                            "name": "David McCandless",
+                            "name": "McCandless",
                             "value": 80
                         },
                         {
@@ -189,10 +189,10 @@
                     ]
                 },
                 {
-                    "name": "Technologies",
+                    "name": "Tools",
                     "children": [
                         {
-                            "name": "Adobe Illustrator",
+                            "name": "Illustrator",
                             "value": 80
                         },
                         {
@@ -235,10 +235,10 @@
             "name": "Data science",
             "children": [
                 {
-                    "name": "Statistics/Analysis",
+                    "name": "Analysis",
                     "children": [
                         {
-                            "name": "K-means clustering",
+                            "name": "K-means",
                             "value": 70
                         },
                         {
@@ -260,7 +260,7 @@
                     ]
                 },
                 {
-                    "name": "Data processing",
+                    "name": "Data process",
                     "children": [
                         {
                             "name": "Hadoop",
@@ -271,7 +271,7 @@
                             "value": 65
                         },
                         {
-                            "name": "Regular Expressions",
+                            "name": "RegEx",
                             "value": 85
                         }
                     ]
@@ -313,11 +313,11 @@
                             "name": "Spreadsheets",
                             "children" : [
                                 {
-                                    "name": "Microsoft Excel",
+                                    "name": "Excel",
                                     "value": 95
                                 },
                                 {
-                                    "name": "Google Sheets",
+                                    "name": "gSheets",
                                     "value": 90
                                 }
                             ]
@@ -363,10 +363,6 @@
                 {
                     "name": "GIS",
                     "value": 80
-                },
-                {
-                    "name": "Coordinate systems",
-                    "value": 75
                 },
                 {
                     "name": "Tools",

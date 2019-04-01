@@ -1,0 +1,31 @@
+@import 'node_modules/express-news-styleguide/init-base';
+
+div.code {
+    width: 98%; 
+    margin: 40px auto 0;
+    text-align:center;
+  
+    span {
+        display: inline-block;
+        width:100%;
+
+        &.anotherHand { line-height:1.1; }
+
+        &.anton {
+            font-size: 6em;
+            color:#2f2f54;
+        }
+
+        &.last { margin: 35px 0 14px; }
+    }
+    
+    img {
+        margin:28px auto 34px;
+        text-align:center;
+        padding-right: 52px;
+    }
+
+    @include mediaquery(515px) {
+        width: 480px;
+    }
+}
