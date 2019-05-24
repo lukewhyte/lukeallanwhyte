@@ -1,6 +1,9 @@
 import React        from 'react';
 import PropTypes    from 'prop-types';
 
+// components
+import PageBreak from '../PageBreak/PageBreak';
+
 // styles
 import './Projects.scss';
 
@@ -35,11 +38,17 @@ const getProject = (p, idx) => {
             <div className="img">
                 <img src={require(`../../images/${p.img}`)} alt={p.title} />
             </div>
+            <PageBreak />
         </div>
     );
 };
 
-const Projects = ({ projects }) => <div className="projects">{projects.map(getProject)}</div>;
+const Projects = ({ projects }) => (
+    <div className="projects">
+        {projects.map(getProject)}
+        <a name="resume"></a>
+    </div>
+);
 
 Projects.propTypes = {
     projects: PropTypes.arrayOf(PropTypes.shape({

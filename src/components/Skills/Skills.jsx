@@ -102,7 +102,7 @@ const Skills = ({ skills, diameter }) => {
                     {labels}
                 </g>
                 <g pointerEvents="none" textAnchor="middle" transform={getTitleTransform(diameter / 2)}>
-                    <text className="title">Me</text>
+                    <text className="title">Skills</text>
                 </g>
             </svg>
         </div>

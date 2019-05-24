@@ -6,10 +6,12 @@ import Nav          from '../Nav/Nav';
 import Bio          from '../Bio/Bio';
 import PageBreak    from '../PageBreak/PageBreak';
 import Projects     from '../Projects/Projects';
+import Resume       from '../Resume/Resume';
 
 // data
-import skills   from '../../data/skills.json';
-import projects from '../../data/projects.json';
+import skills       from '../../data/skills.json';
+import projects     from '../../data/projects.json';
+import employment   from '../../data/employment.json';
 
 // styles
 import './App.scss';
@@ -33,7 +35,7 @@ class App extends Component {
     }
 
     setChartDiameter() {
-        const chartDiameter = window.innerWidth > 960 ? 960 : window.innerWidth;
+        const chartDiameter = window.innerWidth > 720 ? 720 : window.innerWidth;
         this.setState({ chartDiameter });
     }
 
@@ -45,6 +47,8 @@ class App extends Component {
                 <Bio skills={skills} chartDiameter={chartDiameter} />
                 <PageBreak />
                 <Projects projects={projects} />
+                <Resume employment={employment} />
+                <footer><a href="#top">-- Top --</a></footer>
             </div>
         );
     }
