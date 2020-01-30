@@ -13,7 +13,9 @@ export default () => (
             I'm Luke.<br />
         </span><br />
         <span className="anotherHand">I'm a</span><br />
-        <span className="dejaVu">journalist + programmer</span><br />
-        <span className="anotherHand">working with data:</span>
+        <span className="dejaVu">full stack developer + journalist</span><br />
+        <span className="anotherHand">working with data.</span><br />
+        <span className="dejaVu">From analysis and pipelines to web components and graphics</span><br />
+        <span className="anotherHand">My skills include:</span>
     </div>
 );

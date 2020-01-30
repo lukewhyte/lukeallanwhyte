@@ -23,7 +23,7 @@ const Resume = ({ employment }) => (
             <div className="right">
                 <h1>Luke Whyte</h1>
                 <h2>Summary</h2>
-                <span>Over 5 years of experience as a web developer with a focus on data engineering and visualization – writing scalable code and ingesting, analyzing and visualizing data. I love being challenged and learning new things.</span>
+                <span>Over 7 years of experience as a front-end developer and data journalist with a focus on data engineering and visualization – writing scalable code and ingesting, analyzing and visualizing data. I love being challenged and learning new things.</span>
                 <h2>Technical Skills</h2>
                 <span>JavaScript, Python, SQL, Statistics, PHP, Excel, React.js, Angular.js, Vue.js, D3.js, Leaflet.js, MapBox, Node.js, Express, Django, Apache, NLP, Hadoop, Wordpress, MVC, CSS3, NoSQL, Single-page apps & Photoshop</span>
                 <h2>Employment Experience</h2>

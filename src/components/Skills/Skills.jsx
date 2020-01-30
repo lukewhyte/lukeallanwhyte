@@ -101,9 +101,9 @@ const Skills = ({ skills, diameter }) => {
                 <g pointerEvents="none" textAnchor="middle" transform={getGroupTransform(diameter / 2)}>
                     {labels}
                 </g>
-                <g pointerEvents="none" textAnchor="middle" transform={getTitleTransform(diameter / 2)}>
-                    <text className="title">Skills</text>
-                </g>
+                {/* <g pointerEvents="none" textAnchor="middle" transform={getTitleTransform(diameter / 2)}>
+                    <text className="title">Luke</text>
+                </g> */}
             </svg>
         </div>
     );

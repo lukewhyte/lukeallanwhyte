@@ -5,7 +5,7 @@
     "employer": "San Antonio Express-News",
     "startDate": "Mar. 2017",
     "endDate": "Now",
-    "desc": "As the data team lead, I perform data analysis in SQL and Excel, write scrapers inAs the data team lead, I perform data analysis in SQL and Excel, write scrapers in Python and Node, build visualizations and project sites in D3, React and Vue and write investigative stories."
+    "desc": "I investigate and write stories that begin with data gathering, cleaning and analysis. I write a lot of SQL, build scrapers, sockets and frameworks in Python/Django and Node, and build visualizations and applications in D3, React and Vue."
   },
   {
     "position": "Data Visualization Fellow",
@@ -13,7 +13,7 @@
     "employer": "Texas Tribune",
     "startDate": "Aug. 2016",
     "endDate": "Jan. 2017",
-    "desc": "I built tools and visualizations in D3js, HTML and CSS and wrote web scrapers with Python as part of a six-month fellowship with a non-profit news organization."
+    "desc": "I built tools and visualizations in D3js, HTML and CSS and wrote web scrapers in Python as part of a six-month fellowship with a non-profit news organization."
   },
   {
     "position": "Data Visualization Engineer",
@@ -43,17 +43,9 @@
     "position": "Front End Developer",
     "location": "San Francisco, CA",
     "employer": "Tightrope Interactive",
-    "startDate": "Jan. 2013",
+    "startDate": "Jan. 2012",
     "endDate": "July. 2014",
     "desc": "Designed and built web pages for an online marketing company in JS, CSS, HTML and PHP."
-  },
-  {
-    "position": "Front-End Developer",
-    "location": "San Francisco, CA",
-    "employer": "Kickback Tickets",
-    "startDate": "Jan. 2012",
-    "endDate": "Jan. 2013",
-    "desc": "After being contracted to redesign and code the user experience for an online ticketing start-up, I was hired full-time to manage their marketing strategy. Worked with HTML, CSS, JavaScript and GIT and implement validated learning strategies to our marketing approach like small batch development, analytics, customer feedback and A/B testing. Engaged in day-to-day creative and technical problem solving, team coordination and product oversight."
   },
   {
     "position": "Founder, Developer & Writer",
