@@ -1,0 +1,74 @@
+[
+  {
+    "position": "Data Dashboard Developer",
+    "location": "Remote",
+    "employer": "Yaka Labs",
+    "startDate": "Nov. 2019",
+    "endDate": "Feb. 2020",
+    "desc": "Yaka Labs is a portable digital wallet that contracted me for four months to design and build a series of realtime risk and analytics dashboards in Nest/TypeScript/Node and React/Redux/D3."
+  },
+  {
+    "position": "Investigative Data Journalist",
+    "location": "San Antonio, TX",
+    "employer": "San antonio Express-News",
+    "startDate": "Mar. 2018",
+    "endDate": "Oct. 2019",
+    "desc": "I investigated and wrote award-winning stories that began with data gathering, cleaning and analysis. My work involved a lot of open records requests and web scrapers, followed by data analysis and on the ground reporting in Spanish and English."
+  },
+  {
+    "position": "Data Team Editor",
+    "location": "San Antonio, TX",
+    "employer": "San Antonio Express-News",
+    "startDate": "Mar. 2017",
+    "endDate": "Mar. 2018",
+    "desc": "I managed a small team of developers and designers that analyzed data, designed graphics and build scrapers, newsroom tools and and digital special projects in Python/Django, Node, D3, React and Vue."
+  },
+  {
+    "position": "Data Visuals Developer",
+    "location": "Austin, TX",
+    "employer": "Texas Tribune",
+    "startDate": "Aug. 2016",
+    "endDate": "Jan. 2017",
+    "desc": "I built tools and visualizations in D3js, HTML and CSS and wrote web scrapers in Python as part of a six-month fellowship with a non-profit news organization."
+  },
+  {
+    "position": "Full Stack Developer",
+    "location": "Remote",
+    "employer": "Crewspark",
+    "startDate": "Sept. 2015",
+    "endDate": "Jan. 2017",
+    "desc": "Built tools and interfaces in AngularJS, data visualizations in D3.js and helped maintain the Python-based data pipeline (Luigi framework) as a contractor for Crewspark, a young, large-scale web app for data-driven organizations that allows users to ingest, share, analyze and visualize data."
+  },
+  {
+    "position": "JavaScript Developer",
+    "location": "Remote",
+    "employer": "Bitovi",
+    "startDate": "July. 2014",
+    "endDate": "Aug. 2015",
+    "desc": "Built JavaScript applications and data visualizations in a variety of frameworks as a consultant for Bitovi clients. Primarily worked with Apple Inc building and maintaining complex analytics dashboards."
+  },
+  {
+    "position": "Front End Developer",
+    "location": "San Francisco, CA",
+    "employer": "Tightrope Interactive",
+    "startDate": "Jan. 2012",
+    "endDate": "July. 2014",
+    "desc": "Designed and built web pages for an online marketing company in JS, CSS, HTML and PHP."
+  },
+  {
+    "position": "Founder, Developer & Writer",
+    "location": "San Francisco, CA",
+    "employer": "Voices of Justice",
+    "startDate": "Feb. 2010",
+    "endDate": "Jan. 2012",
+    "desc": "Concieved, built and executed an online multimedia project focused on humanizing the crisis in California’s correctional system. Designed and built a responsive website with Wordpress, PHP, JavaScript and CSS. Raised money, support and publicity through social network campaigns. Wrote popular new media narratives published on The Huffington Post and NPR.com. Developed data visualizations on prison statistics. Built and distributed a weekly newsletter to over a thousand followers."
+  },
+  {
+    "position": "Associate Editor",
+    "location": "San Francisco, CA",
+    "employer": "The Praetorian Group",
+    "startDate": "Mar. 2009",
+    "endDate": "Sept. 2010",
+    "desc": "Sole editor for CorrectionsOne.com, an online magazine for criminal justice professionals published by the leading online media company in the public service market. Managed 30+ columnists and published 7-10 columns a week. Produced weekly eNewsletters for a 30,000+ subscriber base. Led video and editorial teams in development of multimedia special reports from events around the country. Worked with web development team in implementation of new site features. Oversaw development of social networking campaigns for all five online magazines at Praetorian Group."
+  }
+]

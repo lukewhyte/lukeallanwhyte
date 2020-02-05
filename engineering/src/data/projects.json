@@ -1,0 +1,90 @@
+[
+  {
+    "title": "Yaka Labs",
+    "desc": "I helped design and build a series of internal risk and analytics dashboards in Node/NestJS/TypeScript and React/Redux/D3 to track FX exposure, PNL, transactions, fraud and other metrics inside a multi-currency payments application.",
+    "img": "yaka-labs.jpg",
+    "btn1Text": "Yaka Labs",
+    "btn1Link": "https://www.yakalabs.com/",
+    "btn2Text": null,
+    "btn2Link": null,
+    "btn3Text": null,
+    "btn3Link": null
+  },
+  {
+    "title": "Ripped Off",
+    "desc": "An ongoing investigative series documenting forced labor and wage theft of immigrants in South Texas for the San Antonio Express-News. I write the stories and build the visualizations based on my analysis of large sets of labor data and interviews I conduct with migrants in Spanish.",
+    "img": "ripped-off.jpg",
+    "btn1Text": "Part I",
+    "btn1Link": "https://www.expressnews.com/news/local/politics/article/Immigrant-who-won-a-labor-case-for-back-pay-hides-13303195.php?t=c8def45e81",
+    "btn2Text": "Part II",
+    "btn2Link": "https://www.expressnews.com/news/local/politics/article/Tricked-and-brutalized-farmworkers-face-a-battle-13829867.php",
+    "btn3Text": "Part III",
+    "btn3Link": "https://www.expressnews.com/news/local/politics/article/Fair-pay-a-distant-dream-for-produce-packers-in-14935870.php#"
+  },
+  {
+    "title": "GraphicBuilder",
+    "desc": "GraphicBuilder is a boilerplate for embedded graphics that I built in Vue.js and bash. It imports Google Sheet data and converts it to JSON, provides styles and fonts for building D3 or CSS graphics, pushes to AWS and utilizes Pym.js for sizing embedded iframes dynamically.",
+    "img": "graphicBuilder.jpg",
+    "btn1Text": "See repo",
+    "btn1Link": "https://github.com/sa-express-news/graphicBuilder",
+    "btn2Text": null,
+    "btn2Link": null,
+    "btn3Text": null,
+    "btn3Link": null
+  },
+  {
+    "title": "d3-scale-break",
+    "desc": "d3-scale-break is a plugin that removes the complexity from adding scale breaks to D3 graphics. It does this by interpolating an array of input domains (one for each scale) to a single range. It's useful when working with highly skewed data that can't be handled through normal continuous scales.",
+    "img": "d3-scale-break.jpg",
+    "btn1Text": "Tutorial",
+    "btn1Link": "https://observablehq.com/@lukewhyte/handling-skewed-data-with-d3-scale-break",
+    "btn2Text": "Repo",
+    "btn2Link": "https://github.com/lukewhyte/d3-scale-break",
+    "btn3Text": null,
+    "btn3Link": null
+  },
+  {
+    "title": "Foster care abuse",
+    "desc": "Working with another reporter, I wrote a multi-part web scraper that made systematic queries to the Health and Human Services website that FOIA attempts could not provide. I then analyzed this data using SQL and natural-language processing to find abuse in report descriptions.",
+    "img": "foster-care.jpg",
+    "btn1Text": "See repo",
+    "btn1Link": "https://github.com/sa-express-news/hhsc-scraper/blob/master/src/scrapeDeficiencyDetails/index.ts",
+    "btn2Text": null,
+    "btn2Link": null,
+    "btn3Text": null,
+    "btn3Link": null
+  },
+  {
+    "title": "Life In Transition",
+    "desc": "An award winning project I designed and built in React to humanize the lives of transgender Texans through the audio, videos, photographs and stories of San Antonio Express-News reporters.",
+    "img": "life-in-transition.jpg",
+    "btn1Text": "View project",
+    "btn1Link": "https://www.expressnews.com/transgender-life-in-transition/",
+    "btn2Text": "See repo",
+    "btn2Link": "https://github.com/sa-express-news/transgender-project",
+    "btn3Text": null,
+    "btn3Link": null
+  },
+  {
+    "title": "Seismograph",
+    "desc": "Seismograph was a data visualization blog where I stored projects written in D3.js. It was built using the Ruby-based Middleman static site generator with Require.js and Underscore.js.",
+    "img": "seismograph.jpg",
+    "btn1Text": "Visit site",
+    "btn1Link": "http://seismograph.co",
+    "btn2Text": "See repo",
+    "btn2Link": "https://github.com/seismograph/seismograph/tree/master/source/js",
+    "btn3Text": null,
+    "btn3Link": null
+  },
+  {
+    "title": "Pills, Coal & Needles",
+    "desc": "In 2015, I spent July 4th weekend hitchhiking through southern West Virginia in search of stories about the region's opiate epidemic. The result of my reporting made Narrative.ly's \"Best of 2015\" list as one of their 5 most popular stories.",
+    "img": "oxycontin.jpg",
+    "btn1Text": "Read story",
+    "btn1Link": "http://narrative.ly/stories/crushing-up-pain-pills-and-spitting-out-lives-in-west-virginia-coal-country/",
+    "btn2Text": null,
+    "btn2Link": null,
+    "btn3Text": null,
+    "btn3Link": null
+  }
+]

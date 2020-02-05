@@ -1,0 +1,399 @@
+{
+    "name": "flare",
+    "children": [
+        {
+            "name": "Databases",
+            "children": [
+                {
+                    "name": "Relational",
+                    "children": [
+                        {
+                            "name": "MySQL",
+                            "value": 60
+                        },
+                        {
+                            "name": "PostGreSQL",
+                            "value": 65
+                        },
+                        {
+                            "name": "SQLite",
+                            "value": 65
+                        }
+                    ]
+                },
+                {
+                    "name": "NoSQL",
+                    "children": [
+                        {
+                            "name": "MongoDB",
+                            "value": 60
+                        },
+                        {
+                            "name": "Couchbase",
+                            "value": 65
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Backend dev",
+            "children": [
+                {
+                    "name": "Web servers",
+                    "children": [
+                        {
+                            "name": "Apache",
+                            "value": 55
+                        },
+                        {
+                            "name": "Nginx",
+                            "value": 55
+                        }
+                    ]
+                },
+                {
+                    "name": "Python",
+                    "children": [
+                        {
+                            "name": "Django",
+                            "value": 80
+                        },
+                        {
+                            "name": "Django REST",
+                            "value": 85
+                        },
+                        {
+                            "name": "Luigi",
+                            "value": 65
+                        }
+                    ]
+                },
+                {
+                    "name": "JavaScript",
+                    "children": [
+                        {
+                            "name": "Node",
+                            "value": 95
+                        },
+                        {
+                            "name": "Express",
+                            "value": 70
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Frontend dev",
+            "children": [
+                {
+                    "name": "JavaScript",
+                    "children": [
+                        {
+                            "name": "React",
+                            "value": 100
+                        },
+                        {
+                            "name": "Vue",
+                            "value": 95
+                        },
+                        {
+                            "name": "Angular",
+                            "value": 95
+                        },
+                        {
+                            "name": "ES6",
+                            "value": 100
+                        },
+                        {
+                            "name": "TDD",
+                            "value": 95
+                        },
+                        {
+                            "name": "Webpack",
+                            "value": 90
+                        },
+                        {
+                            "name": "Lodash",
+                            "value": 100
+                        },
+                        {
+                            "name": "D3",
+                            "value": 100
+                        },
+                        {
+                            "name": "jQuery",
+                            "value": 100
+                        }
+                    ]
+                },
+                {
+                    "name": "HTML",
+                    "children": [
+                        {
+                            "name": "JSX",
+                            "value": 100
+                        }
+                    ]
+                },
+                {
+                    "name": "CSS",
+                    "children": [
+                        {
+                            "name": "SASS",
+                            "value": 100
+                        },
+                        {
+                            "name": "LESS",
+                            "value": 95
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Data viz",
+            "children": [
+                {
+                    "name": "Influences",
+                    "children": [
+                        {
+                            "name": "Edward Tufte",
+                            "value": 95
+                        },
+                        {
+                            "name": "Alberto Cairo",
+                            "value": 95
+                        },
+                        {
+                            "name": "Dona Wong",
+                            "value": 90
+                        },
+                        {
+                            "name": "Mike Bostock",
+                            "value": 100
+                        },
+                        {
+                            "name": "McCandless",
+                            "value": 80
+                        },
+                        {
+                            "name": "Nathan Yau",
+                            "value": 80
+                        },
+                        {
+                            "name": "Scott Murray",
+                            "value": 80
+                        }
+                    ]
+                },
+                {
+                    "name": "Tools",
+                    "children": [
+                        {
+                            "name": "Illustrator",
+                            "value": 80
+                        },
+                        {
+                            "name": "D3",
+                            "value": 100
+                        },
+                        {
+                            "name": "GeoJSON",
+                            "value": 95
+                        },
+                        {
+                            "name": "Highcharts",
+                            "value": 85
+                        },
+                        {
+                            "name": "C3",
+                            "value": 85
+                        },
+                        {
+                            "name": "Datawrapper",
+                            "value": 100
+                        },
+                        {
+                            "name": "HTML/CSS",
+                            "value": 100
+                        },
+                        {
+                            "name": "Vega",
+                            "value": 75
+                        },
+                        {
+                            "name": "Brightcharts",
+                            "value": 80
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Data science",
+            "children": [
+                {
+                    "name": "Analysis",
+                    "children": [
+                        {
+                            "name": "K-means",
+                            "value": 70
+                        },
+                        {
+                            "name": "NLP",
+                            "value": 60
+                        },
+                        {
+                            "name": "Naive Bayes",
+                            "value": 60
+                        },
+                        {
+                            "name": "Regression",
+                            "value": 50
+                        },
+                        {
+                            "name": "Network graphs",
+                            "value": 50
+                        }
+                    ]
+                },
+                {
+                    "name": "Data process",
+                    "children": [
+                        {
+                            "name": "Hadoop",
+                            "value": 50
+                        },
+                        {
+                            "name": "Luigi",
+                            "value": 65
+                        },
+                        {
+                            "name": "RegEx",
+                            "value": 85
+                        }
+                    ]
+                },
+                {
+                    "name": "Tools",
+                    "children": [
+                        {
+                            "name": "Python",
+                            "children" : [
+                                {
+                                    "name": "iPython",
+                                    "value": 60
+                                },
+                                {
+                                    "name": "NumPi",
+                                    "value": 50
+                                },
+                                {
+                                    "name": "Pandas",
+                                    "value": 50
+                                },
+                                {
+                                    "name": "NL toolkit",
+                                    "value": 50
+                                }
+                            ]
+                        },
+                        {
+                            "name": "JavaScript",
+                            "children" : [
+                                {
+                                    "name": "BrainJS",
+                                    "value": 80
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Spreadsheets",
+                            "children" : [
+                                {
+                                    "name": "Excel",
+                                    "value": 95
+                                },
+                                {
+                                    "name": "gSheets",
+                                    "value": 90
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Web scraping",
+            "children": [
+                {
+                    "name": "Python",
+                    "children": [
+                        {
+                            "name": "Scrapy",
+                            "value": 85
+                        }
+                    ]
+                },
+                {
+                    "name": "JavaScript",
+                    "children": [
+                        {
+                            "name": "Cheerio",
+                            "value": 90
+                        },
+                        {
+                            "name": "PhantomJS",
+                            "value": 90
+                        },
+                        {
+                            "name": "Puppeteer",
+                            "value": 90
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cartography",
+            "children": [
+                {
+                    "name": "GIS",
+                    "value": 80
+                },
+                {
+                    "name": "Tools",
+                    "children": [
+                        {
+                            "name": "Leaflet",
+                            "value": 100
+                        },
+                        {
+                            "name": "Mapbox",
+                            "value": 100
+                        },
+                        {
+                            "name": "Carto",
+                            "value": 100
+                        },
+                        {
+                            "name": "D3",
+                            "value": 100
+                        },
+                        {
+                            "name": "TurfJS",
+                            "value": 95
+                        },
+                        {
+                            "name": "ArcGIS",
+                            "value": 80
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
